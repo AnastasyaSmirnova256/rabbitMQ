@@ -8,12 +8,6 @@ public class Producer {
 
     private final static String QUEUE_NAME = "products_queue";
 
-    /**
-     * Какой-то мейн
-     * @param args какие-то парамы
-     * @throws IOException ошибка 1
-     * @throws TimeoutException ошибка 2
-     */
     public static void main(String[]args) throws IOException, TimeoutException {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("localhost");
